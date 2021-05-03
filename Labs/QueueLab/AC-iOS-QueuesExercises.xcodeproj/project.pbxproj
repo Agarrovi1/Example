@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DAFFB2A2329893300CC3714 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFFB292329893300CC3714 /* Stack.swift */; };
+		54FCCEE41FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEE31FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift */; };
+		54FCCEEF1FBBFB15003FE776 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEEE1FBBFB15003FE776 /* Queue.swift */; };
+		54FCCEF11FBBFBA0003FE776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEF01FBBFBA0003FE776 /* AppDelegate.swift */; };
+		54FCCEF41FBBFBFC003FE776 /* QueueExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEF31FBBFBFC003FE776 /* QueueExercises.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54FCCEE01FBBFA4E003FE776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FCCEC31FBBFA4D003FE776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FCCECA1FBBFA4E003FE776;
+			remoteInfo = "AC-iOS-QueuesExercises";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DAFFB292329893300CC3714 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		54FCCECB1FBBFA4E003FE776 /* AC-iOS-QueuesExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-QueuesExercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FCCEDA1FBBFA4E003FE776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FCCEDF1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AC-iOS-QueuesExercisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FCCEE31FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_iOS_QueuesExercisesTests.swift; sourceTree = "<group>"; };
+		54FCCEE51FBBFA4E003FE776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FCCEEE1FBBFB15003FE776 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		54FCCEF01FBBFBA0003FE776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54FCCEF31FBBFBFC003FE776 /* QueueExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExercises.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54FCCEC81FBBFA4E003FE776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FCCEDC1FBBFA4E003FE776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54FCCEC21FBBFA4D003FE776 = {
+			isa = PBXGroup;
+			children = (
+				54FCCECD1FBBFA4E003FE776 /* AC-iOS-QueuesExercises */,
+				54FCCEE21FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests */,
+				54FCCECC1FBBFA4E003FE776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54FCCECC1FBBFA4E003FE776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54FCCECB1FBBFA4E003FE776 /* AC-iOS-QueuesExercises.app */,
+				54FCCEDF1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FCCECD1FBBFA4E003FE776 /* AC-iOS-QueuesExercises */ = {
+			isa = PBXGroup;
+			children = (
+				54FCCEF21FBBFBAE003FE776 /* Supporting Files */,
+				54FCCEF31FBBFBFC003FE776 /* QueueExercises.swift */,
+				54FCCEDA1FBBFA4E003FE776 /* Info.plist */,
+			);
+			path = "AC-iOS-QueuesExercises";
+			sourceTree = "<group>";
+		};
+		54FCCEE21FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				54FCCEE31FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift */,
+				54FCCEE51FBBFA4E003FE776 /* Info.plist */,
+			);
+			path = "AC-iOS-QueuesExercisesTests";
+			sourceTree = "<group>";
+		};
+		54FCCEF21FBBFBAE003FE776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54FCCEEE1FBBFB15003FE776 /* Queue.swift */,
+				4DAFFB292329893300CC3714 /* Stack.swift */,
+				54FCCEF01FBBFBA0003FE776 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54FCCECA1FBBFA4E003FE776 /* AC-iOS-QueuesExercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FCCEE81FBBFA4E003FE776 /* Build configuration list for PBXNativeTarget "AC-iOS-QueuesExercises" */;
+			buildPhases = (
+				54FCCEC71FBBFA4E003FE776 /* Sources */,
+				54FCCEC81FBBFA4E003FE776 /* Frameworks */,
+				54FCCEC91FBBFA4E003FE776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AC-iOS-QueuesExercises";
+			productName = "AC-iOS-QueuesExercises";
+			productReference = 54FCCECB1FBBFA4E003FE776 /* AC-iOS-QueuesExercises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54FCCEDE1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FCCEEB1FBBFA4E003FE776 /* Build configuration list for PBXNativeTarget "AC-iOS-QueuesExercisesTests" */;
+			buildPhases = (
+				54FCCEDB1FBBFA4E003FE776 /* Sources */,
+				54FCCEDC1FBBFA4E003FE776 /* Frameworks */,
+				54FCCEDD1FBBFA4E003FE776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FCCEE11FBBFA4E003FE776 /* PBXTargetDependency */,
+			);
+			name = "AC-iOS-QueuesExercisesTests";
+			productName = "AC-iOS-QueuesExercisesTests";
+			productReference = 54FCCEDF1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54FCCEC31FBBFA4D003FE776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "C4Q ";
+				TargetAttributes = {
+					54FCCECA1FBBFA4E003FE776 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					54FCCEDE1FBBFA4E003FE776 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54FCCECA1FBBFA4E003FE776;
+					};
+				};
+			};
+			buildConfigurationList = 54FCCEC61FBBFA4D003FE776 /* Build configuration list for PBXProject "AC-iOS-QueuesExercises" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54FCCEC21FBBFA4D003FE776;
+			productRefGroup = 54FCCECC1FBBFA4E003FE776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54FCCECA1FBBFA4E003FE776 /* AC-iOS-QueuesExercises */,
+				54FCCEDE1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54FCCEC91FBBFA4E003FE776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FCCEDD1FBBFA4E003FE776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54FCCEC71FBBFA4E003FE776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFFB2A2329893300CC3714 /* Stack.swift in Sources */,
+				54FCCEF11FBBFBA0003FE776 /* AppDelegate.swift in Sources */,
+				54FCCEEF1FBBFB15003FE776 /* Queue.swift in Sources */,
+				54FCCEF41FBBFBFC003FE776 /* QueueExercises.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FCCEDB1FBBFA4E003FE776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FCCEE41FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54FCCEE11FBBFA4E003FE776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FCCECA1FBBFA4E003FE776 /* AC-iOS-QueuesExercises */;
+			targetProxy = 54FCCEE01FBBFA4E003FE776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54FCCEE61FBBFA4E003FE776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54FCCEE71FBBFA4E003FE776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54FCCEE91FBBFA4E003FE776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-QueuesExercises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.AC-iOS-QueuesExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54FCCEEA1FBBFA4E003FE776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-QueuesExercises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.AC-iOS-QueuesExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54FCCEEC1FBBFA4E003FE776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-QueuesExercisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.AC-iOS-QueuesExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC-iOS-QueuesExercises.app/AC-iOS-QueuesExercises";
+			};
+			name = Debug;
+		};
+		54FCCEED1FBBFA4E003FE776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-QueuesExercisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c4q.AC-iOS-QueuesExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC-iOS-QueuesExercises.app/AC-iOS-QueuesExercises";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54FCCEC61FBBFA4D003FE776 /* Build configuration list for PBXProject "AC-iOS-QueuesExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FCCEE61FBBFA4E003FE776 /* Debug */,
+				54FCCEE71FBBFA4E003FE776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FCCEE81FBBFA4E003FE776 /* Build configuration list for PBXNativeTarget "AC-iOS-QueuesExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FCCEE91FBBFA4E003FE776 /* Debug */,
+				54FCCEEA1FBBFA4E003FE776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FCCEEB1FBBFA4E003FE776 /* Build configuration list for PBXNativeTarget "AC-iOS-QueuesExercisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FCCEEC1FBBFA4E003FE776 /* Debug */,
+				54FCCEED1FBBFA4E003FE776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54FCCEC31FBBFA4D003FE776 /* Project object */;
+}
