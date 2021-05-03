@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ChemicalElements.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppError.swift">
+   </FileRef>
+   <FileRef
+      location = "group:ElementAPIClient.swift">
+   </FileRef>
+   <FileRef
+      location = "group:NetworkHelper.swift">
+   </FileRef>
+   <FileRef
+      location = "self:CollectionView.xcodeproj">
+   </FileRef>
+</Workspace>
