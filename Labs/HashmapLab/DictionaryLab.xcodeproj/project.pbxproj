@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7D34C12339761200D24081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D34C02339761200D24081 /* AppDelegate.swift */; };
+		CD7D34C32339761200D24081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D34C22339761200D24081 /* ViewController.swift */; };
+		CD7D34C62339761200D24081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D34C42339761200D24081 /* Main.storyboard */; };
+		CD7D34C82339761400D24081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7D34C72339761400D24081 /* Assets.xcassets */; };
+		CD7D34CB2339761400D24081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D34C92339761400D24081 /* LaunchScreen.storyboard */; };
+		CD7D34D62339761400D24081 /* DictionaryLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D34D52339761400D24081 /* DictionaryLabTests.swift */; };
+		CD7D34E12339762800D24081 /* DictionaryProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D34E02339762800D24081 /* DictionaryProblems.swift */; };
+		CD7D34E2233A5D9500D24081 /* DictionaryProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D34E02339762800D24081 /* DictionaryProblems.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7D34D22339761400D24081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D34B52339761200D24081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D34BC2339761200D24081;
+			remoteInfo = DictionaryLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7D34BD2339761200D24081 /* DictionaryLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D34C02339761200D24081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7D34C22339761200D24081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7D34C52339761200D24081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7D34C72339761400D24081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7D34CA2339761400D24081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7D34CC2339761400D24081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D34D12339761400D24081 /* DictionaryLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D34D52339761400D24081 /* DictionaryLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryLabTests.swift; sourceTree = "<group>"; };
+		CD7D34D72339761400D24081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D34E02339762800D24081 /* DictionaryProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryProblems.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7D34BA2339761200D24081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D34CE2339761400D24081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7D34B42339761200D24081 = {
+			isa = PBXGroup;
+			children = (
+				CD7D34BF2339761200D24081 /* DictionaryLab */,
+				CD7D34D42339761400D24081 /* DictionaryLabTests */,
+				CD7D34BE2339761200D24081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7D34BE2339761200D24081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D34BD2339761200D24081 /* DictionaryLab.app */,
+				CD7D34D12339761400D24081 /* DictionaryLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7D34BF2339761200D24081 /* DictionaryLab */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D34C02339761200D24081 /* AppDelegate.swift */,
+				CD7D34C22339761200D24081 /* ViewController.swift */,
+				CD7D34E02339762800D24081 /* DictionaryProblems.swift */,
+				CD7D34C42339761200D24081 /* Main.storyboard */,
+				CD7D34C72339761400D24081 /* Assets.xcassets */,
+				CD7D34C92339761400D24081 /* LaunchScreen.storyboard */,
+				CD7D34CC2339761400D24081 /* Info.plist */,
+			);
+			path = DictionaryLab;
+			sourceTree = "<group>";
+		};
+		CD7D34D42339761400D24081 /* DictionaryLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D34D52339761400D24081 /* DictionaryLabTests.swift */,
+				CD7D34D72339761400D24081 /* Info.plist */,
+			);
+			path = DictionaryLabTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7D34BC2339761200D24081 /* DictionaryLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D34DA2339761400D24081 /* Build configuration list for PBXNativeTarget "DictionaryLab" */;
+			buildPhases = (
+				CD7D34B92339761200D24081 /* Sources */,
+				CD7D34BA2339761200D24081 /* Frameworks */,
+				CD7D34BB2339761200D24081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryLab;
+			productName = DictionaryLab;
+			productReference = CD7D34BD2339761200D24081 /* DictionaryLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7D34D02339761400D24081 /* DictionaryLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D34DD2339761400D24081 /* Build configuration list for PBXNativeTarget "DictionaryLabTests" */;
+			buildPhases = (
+				CD7D34CD2339761400D24081 /* Sources */,
+				CD7D34CE2339761400D24081 /* Frameworks */,
+				CD7D34CF2339761400D24081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D34D32339761400D24081 /* PBXTargetDependency */,
+			);
+			name = DictionaryLabTests;
+			productName = DictionaryLabTests;
+			productReference = CD7D34D12339761400D24081 /* DictionaryLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7D34B52339761200D24081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Benjamin Stone";
+				TargetAttributes = {
+					CD7D34BC2339761200D24081 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CD7D34D02339761400D24081 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CD7D34BC2339761200D24081;
+					};
+				};
+			};
+			buildConfigurationList = CD7D34B82339761200D24081 /* Build configuration list for PBXProject "DictionaryLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7D34B42339761200D24081;
+			productRefGroup = CD7D34BE2339761200D24081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7D34BC2339761200D24081 /* DictionaryLab */,
+				CD7D34D02339761400D24081 /* DictionaryLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7D34BB2339761200D24081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D34CB2339761400D24081 /* LaunchScreen.storyboard in Resources */,
+				CD7D34C82339761400D24081 /* Assets.xcassets in Resources */,
+				CD7D34C62339761200D24081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D34CF2339761400D24081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7D34B92339761200D24081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D34C32339761200D24081 /* ViewController.swift in Sources */,
+				CD7D34C12339761200D24081 /* AppDelegate.swift in Sources */,
+				CD7D34E12339762800D24081 /* DictionaryProblems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D34CD2339761400D24081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D34D62339761400D24081 /* DictionaryLabTests.swift in Sources */,
+				CD7D34E2233A5D9500D24081 /* DictionaryProblems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7D34D32339761400D24081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D34BC2339761200D24081 /* DictionaryLab */;
+			targetProxy = CD7D34D22339761400D24081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7D34C42339761200D24081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D34C52339761200D24081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7D34C92339761400D24081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D34CA2339761400D24081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7D34D82339761400D24081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD7D34D92339761400D24081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7D34DB2339761400D24081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictionaryLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.DictionaryLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7D34DC2339761400D24081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictionaryLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.DictionaryLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7D34DE2339761400D24081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictionaryLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.DictionaryLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryLab.app/DictionaryLab";
+			};
+			name = Debug;
+		};
+		CD7D34DF2339761400D24081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictionaryLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuit.DictionaryLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryLab.app/DictionaryLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7D34B82339761200D24081 /* Build configuration list for PBXProject "DictionaryLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D34D82339761400D24081 /* Debug */,
+				CD7D34D92339761400D24081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D34DA2339761400D24081 /* Build configuration list for PBXNativeTarget "DictionaryLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D34DB2339761400D24081 /* Debug */,
+				CD7D34DC2339761400D24081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D34DD2339761400D24081 /* Build configuration list for PBXNativeTarget "DictionaryLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D34DE2339761400D24081 /* Debug */,
+				CD7D34DF2339761400D24081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7D34B52339761200D24081 /* Project object */;
+}
